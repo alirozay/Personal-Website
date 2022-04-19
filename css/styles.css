@@ -1,0 +1,139 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Cardo', serif;
+}
+h1{
+  margin: 0;
+  color: #1A374D;
+  font-family: 'Dancing Script', cursive;
+  font-size: 5.625rem;
+  line-height: 2;
+}
+
+.first-container {
+  height: 642px;
+  background-color: #B1D0E0;
+  padding-top: 50px;
+  position: relative;
+}
+
+.middle-container{
+  display: inline-block;
+  width: 631.5px;
+
+}
+
+hr{
+  border-style: none;
+  border-top-style: dotted;
+  color: #EAF6F6;
+  border-width: 5px;
+  width: 30%;
+}
+
+h2{
+  margin-top: 0;
+  color: #1A374D;
+  margin-bottom: 20;
+  font-size: 1.50rem;
+  font-weight: normal;
+}
+
+.uni{
+  font-style: italic;
+}
+
+ .dhaka{
+   position: absolute;
+   display: inline-block;
+   width: 600px;
+   height: auto;
+   left: 0;
+   top:433px;
+}
+.cloud1{
+  position: absolute;
+  width: auto;
+  height: auto;
+  right: 100px;
+  top: 10px;
+}
+.cloud2{
+  position: absolute;
+  width: auto;
+  height: auto;
+  left: 20px;
+  bottom: 200px;
+}
+.bottom-container{
+  margin-top: 20px;
+  height: 80px;
+  background-color: #C2FFF9;
+
+}
+.footer-link{
+  color: #11999E;
+}
+.programming{
+  float: left;
+  width: 50%;
+  height: auto;
+  margin-right: 30px;
+}
+
+img{
+  width: 36px;
+  height: 36px;
+}
+
+.cooking{
+  float: right;
+  width: 50%;
+  height: auto;
+  margin-left: 30px;
+}
+
+.skill-row{
+  width: 50%;
+  margin: 50px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.skill-programming{
+  margin-bottom: 100px;
+}
+
+.btn {
+  display: inline-block;
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 9;
+  -moz-border-radius: 9;
+  border-radius: 9px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background:  #30e3cb;
+  background-image: -webkit-linear-gradient(top,  #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top,  #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top,  #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top,  #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom,  #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+
+.profile-picture{
+  width: 150px;
+  height: 150px;
+}
